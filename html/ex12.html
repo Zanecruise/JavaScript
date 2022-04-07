@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exec</title>
+</head>
+<body>
+    <script>
+        //var valor
+        //valor = window.prompt("dwaiodj")
+        //console.log("info"+valor)
+        //parseInt(
+        //parseFloat(
+        
+        var xx
+        var xy
+        var yx
+        var yy
+
+        xx = parseFloat(window.prompt("Número x1: "))
+        xy = parseFloat(window.prompt("Número x2: "))
+        yx = parseFloat(window.prompt("Número x3: "))
+        yy = parseFloat(window.prompt("Número x4: "))
+
+        var contax = (xx-xy)*(xx-xy)
+        var contaz = (yx-yy)*(yx-yy)
+        var contaf = contax + contaz
+        var contay = Math.sqrt(contaf)
+
+        console.log("Resultado: "+contay)
+
+    </script>
+</body>
+</html>
